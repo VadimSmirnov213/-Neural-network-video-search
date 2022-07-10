@@ -1,0 +1,3 @@
+def mass(self, L):
+  finr = L * 260 // 12.19
+  self.m_output.setText(str(finr))
