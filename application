@@ -1,7 +1,0 @@
-def mass(self, L):
-    finr = L * 260 // 12.19
-    self.m_output.setText(str(finr))
-  
-  
-def flight(self, W, KPD):
-    self.s_output.setText(str(W / KPD))
